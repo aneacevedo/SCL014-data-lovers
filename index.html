@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Scl014-data-lovers by aneacevedo</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Scl014-data-lovers</h1>
+        <h2>Segundo proyecto de Common Core del cohort scl014</h2>
+        <a href="https://github.com/aneacevedo/SCL014-data-lovers" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="data-lovers--pokémon-go-pokédex" class="anchor" href="#data-lovers--pok%C3%A9mon-go-pok%C3%A9dex" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DATA LOVERS =&gt; Pokémon Go: Pokédex</h1>
+<h2>
+<a id="índice" class="anchor" href="#%C3%ADndice" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Índice</h2>
+<ul>
+<li><a href="#1-definicion-del-producto">1. Definición del Producto</a></li>
+<li><a href="#2-perfil-del-usuario">2. Perfil del Usuario</a></li>
+<li><a href="#2-historias-de-usuario">2. Historias de Usuario</a></li>
+<li><a href="#3-prototipos">3. Prototipos</a></li>
+<li><a href="#4-imagen-final-del-proyecto">4. Imagen Final del Proyecto</a></li>
+</ul>
+<hr>
+<h2>
+<a id="1-definición-del-producto" class="anchor" href="#1-definici%C3%B3n-del-producto" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. DEFINICIÓN DEL PRODUCTO</h2>
+<h2>
+<a id="11-finalidad-del-producto" class="anchor" href="#11-finalidad-del-producto" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1.1 Finalidad del Producto</h2>
+<p>"Pokémon Go: Pokédex" nace con la intención de brindar información relevante para los jugadores de Pokémon Go y ayudarles a tomar decisiones respecto a su estrategia de juego, basada en datos duros: información que puedan revisar desde cualquier dispositivo, de fácil lectura e interpretación y que esté a mano de cualquier aficionado al juego.</p>
+<h2>
+<a id="12-origen-de-pokémon-go-pokédex" class="anchor" href="#12-origen-de-pok%C3%A9mon-go-pok%C3%A9dex" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1.2 Origen de Pokémon Go: Pokédex</h2>
+<p>Previo a la creación del producto, se determinó que cierta data debía estar incluída a como diera lugar, por lo cual el presentar a todos los Pokémon por el orden de la Pokédex nos parecía fundamental (del #001 al #251). Tanto en la serie como en el juego, el orden ha sido un factor determinante a la hora de insertarse en el mundo de Pokémon. Sin importar el nivel de experiencia del jugador, siempre habrá tres pokémones clásicos identificables: Bulbasaur, Charmander y Squirtle, cada uno presentado junto a sus evoluciones, mostrando su imagen, breve descripción, características físicas, tales como peso y estatura, y su tipo (planta, bicho, fuego, agua, tierra, etc.) y este orden es lo que el jugador espera.
+Podemos inferir que de toda la data disponible, las siguientes nos permiten ofrecer una experiencia distinta al usuario: tasa de huida base, tasa de captura base, oportunidad de spawn, resistencia base (stamina), poder de combate y salud (máximo).</p>
+<h2>
+<a id="2-perfil-del-usuario" class="anchor" href="#2-perfil-del-usuario" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. PERFIL DEL USUARIO</h2>
+<ul>
+<li><strong>¿Quiénes son los principales usuarios de producto?</strong></li>
+</ul>
+<p>La recabación de datos se realizó mediante <em>Google Forms</em>.
+El rango etario de los usuarios que respondieron a nuestra encuesta va de los 19 a los 35 años, de los cuales el 66% está entre los 19 y 25 años.
+En su mayoría viven con su familia, son de clase media, dada la situación actual muchos de ellos se encuentran desempleados o estudiando remoto.</p>
+<p><img src="https://i.imgur.com/SQYg0YR.png" alt="json-interfaz"></p>
+<p>Son nativos digitales que destinan una parte importante de su tiempo al ocio y, para muchos de ellos, Pokémon Go es un juego que es parte de sus rutinas.
+Para hacer una estimación, si un usuario utiliza un incienso para atraer pokémones, el efecto dura 1 hora; si el usuario deja un sebo en una pokeparada, el efecto dura 30 minutos; las incursiones ocurren en momentos específicos del día y requieren pases especiales. En otras palabras, ser jugador de Pokémon Go exige disciplina para poder cumplir misiones, las cuales son premiadas con polvos estelares, pokebolas, bayas,
+pociones, medicina para revivir, huevos, entre otros, lo que motiva al usuario a conectarse incluso varias veces en un solo día: el usuario está pendiente de su progreso en el juego y <em><strong>la posibilidad de jugar en comunidad con sus amigos estimula su platea externa, lo cual también ayuda a mejorar su rendimiento en el juego.</strong></em></p>
+<p><img src="https://i.imgur.com/KmQbvi6.png" alt="json-interfaz"></p>
+<ul>
+<li><strong>¿Cuáles son los objetivos de estos usuarios en relación con el producto?</strong></li>
+</ul>
+<p>Queremos que nuestros potenciales usuarios confíen en nuestra aplicación y sientan que junto a ella pueden mejorar su rendimiento en el juego.
+La confianza es primordial, considerando que una gran cantidad de aplicaciones relacionadas a Pokémon Go pueden terminar en el baneo de sus cuentas, al hacer uso de data que se considera "tramposa". Para ello, la implementación de la identidad gráfica es primordial.
+Nuestro usuario es analítico y quiere hacer comparaciones entre pokémones, desea comprender la jerarquía entre ellos y apreciar sus características, para hacer uso de esa data cuando tenga la posibilidad de ingresar al juego.</p>
+<ul>
+<li><strong>¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?</strong></li>
+</ul>
+<p>Al momento de jugar Pokémon Go, nos damos cuenta de que en el momento de que un pokémon es capturado se despliega una ficha informativa, siendo aquella que gana en jerarquía el <strong>Poder de Combate</strong>. Esta información está sobre la imagen principal de cada pokémon. En nuestra encuesta, esto se corrobora, ya que es el dato más
+requerido por los jugadores:</p>
+<p><img src="https://i.imgur.com/NmF2SE5.png" alt="json-interfaz"></p>
+<p><img src="https://i.imgur.com/8bP09Rp.png" alt="json-interfaz"></p>
+<ul>
+<li><strong>¿Qué tipo de interfaz les gustaría a nuestros usuarios?</strong></li>
+</ul>
+<p>De forma casi unánime, nuestros potenciales usuarios mencionaron que les gustaría una app que utilice los colores y que tenga la identidad gráfica del juego.
+En otras palabras, utilizar una gama de colores que va desde matices de verde al azul petróleo, ya que les da más confianza.
+Esto también afectaría las tonalidades a usar respecto a la presentación de las fichas de cada pokémon, ya que la pokédex para Kanto usa tonos lila y la pokédex de Johto, matices de azul.
+A continuación dejamos otros datos obtenidos que hemos considerado al momento de prototipar:</p>
+<p><img src="https://i.imgur.com/5FTcmL6.png" alt="json-interfaz"></p>
+<p><img src="https://i.imgur.com/LOym78I.png" alt="json-interfaz"></p>
+<p><img src="https://i.imgur.com/NWeUBXK.png" alt="json-interfaz"></p>
+<ul>
+<li><strong>¿Cuándo utilizan o utilizarían el producto?</strong></li>
+</ul>
+<p>Nuestros potenciales usuarios harían uso de "Pokémon Go: Pokédex" en tiempos intermedios de ocio con fin de complementar sus conocimientos técnicos de Pokémon,
+pudiendo ordenar la información en orden ascendente o descendente, filtrar por tipo de Pokémon, de modo que los guíe a determinar cuál de sus Pokémon capturados será más útil en una incursión (raid), cuáles les faltan para completar la Pokédex, qué Pokémon resistirá mejor en un gimnasio o en algún encuentro con el equipo Rocket en alguna de las pokeparadas.</p>
+<h2>
+<a id="3-historias-de-usuario" class="anchor" href="#3-historias-de-usuario" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. HISTORIAS DE USUARIO</h2>
+<p>A raíz de nuestra investigación, decidimos priorizar las siguientes Historias de Usuario:</p>
+<p><strong>HU1: "Yo como jugador de PG, quiero visualizar los 251 pokémon por el orden designado en la pokédex, para saber cuáles me faltan".</strong></p>
+<p>C.A.:</p>
+<ul>
+<li>[x] El usuario puede ver los 251 pokémon desde el inicio</li>
+<li>[x] Los 251 pokémon están ordenados (primero Kanto, luego Johto)</li>
+<li>[x] Cada pokémon tiene su número, nombre, imagen y tipo identificado en la ficha visible</li>
+<li>[x] El color de fondo de los pokémon corresponde también a la pokédex de la generación a la cual pertenecen</li>
+</ul>
+<p>D.T.:</p>
+<ul>
+<li>[x] Se respeta el diseño de prototipado</li>
+<li>[x] El diseño está hecho con flexbox</li>
+<li>[x] Se está trabajando con selectores de clase en CSS</li>
+<li>[x] Se utiliza html semántico</li>
+<li>[x] Se utiliza html dinámico</li>
+<li>[x] El código ha sido hecho en pair-programming</li>
+<li>[x] El código está utilizando arrays y objects</li>
+<li>[x] Se implementa función para mostrar a los 251 pokémon</li>
+<li>[x] El código está en el repositorio actualizado</li>
+</ul>
+<p><strong>HU2: "Yo como jugador de PG, quiero conocer el poder de combate de un pokémon, para competir en gimnasios e incursiones".</strong></p>
+<p>C.A.:</p>
+<ul>
+<li>[x] Cada Pokémon tiene visible su máximo PC en la ficha</li>
+<li>[x] El usuario puede ordenar los pokémon según su poder de combate (ascendente)</li>
+<li>[x] El usuario puede ordenar los pokémon según su poder de combate (descendente)</li>
+</ul>
+<p>D.T.:</p>
+<ul>
+<li>[x] Se respeta el diseño de prototipado</li>
+<li>[x] Se utiliza html semántico</li>
+<li>[x] Se utiliza html dinámico</li>
+<li>[x] Se trabaja en pair-programming</li>
+<li>[x] El código utiliza arrays (sort, reverse) y objects</li>
+<li>[x] El código está actualizado en el repositorio</li>
+<li>[x] Se implementa función para ordenar a los 251 pokémon según PC</li>
+<li>[x] Se recibe feedback de diseño visual por parte de otras duplas</li>
+</ul>
+<p><strong>HU3: "Yo como jugador de PG, quiero clickear en las fichas y que se den vuelta como cartas para ver la información adicional de cada pokémon".</strong></p>
+<p>C.A.:</p>
+<ul>
+<li>[ ] Cuando el usuario elige a un Pokémon, la ficha se da vuelta como una carta y muestra información adicional</li>
+<li>[ ] La transición del giro de la ficha es suave</li>
+<li>[ ] El color del reverso es el mismo que el frontal (correspondiente a cada generación)</li>
+</ul>
+<p>D.T.:</p>
+<ul>
+<li>[ ] Se respeta el diseño de prototipado</li>
+<li>[ ] Se utiliza html semántico</li>
+<li>[ ] Se utiliza html dinámico</li>
+<li>[ ] Se trabaja en pair-programming</li>
+<li>[ ] La transición se crea con CSS en stylesheet</li>
+<li>[ ] El código está actualizado en el repositorio</li>
+<li>[ ] Se implementa función para obtener la información adicional de cada pokémon</li>
+</ul>
+<p><strong>HU4: "Yo como jugador de PG, quiero saber cuáles son las chances de spawn de un pokémon, para priorizar las capturas".</strong></p>
+<p>C.A.:</p>
+<ul>
+<li>[ ] Cuando el usuario elige a un Pokémon, las chances de spawn son mostradas al reverso de la ficha</li>
+<li>[ ] La información es entregada de forma clara y concisa</li>
+</ul>
+<p>D.T.:</p>
+<ul>
+<li>[ ] Se respeta el diseño de prototipado</li>
+<li>[ ] Se utiliza html semántico</li>
+<li>[ ] Se utiliza html dinámico</li>
+<li>[ ] Se trabaja en pair-programming</li>
+<li>[ ] El código está actualizado en el repositorio</li>
+</ul>
+<p><strong>HU5: "Yo como jugador de PG, quiero conocer la tasa de captura base de un pokémon, para optimizar mis recursos (pokeballs, bayas, inciensos, etc.)"</strong></p>
+<p>C.A.:</p>
+<ul>
+<li>[ ] Cuando el usuario elige a un Pokémon, la tasa de captura base es mostrada al reverso de la ficha</li>
+<li>[ ] La información es entregada de forma clara y concisa</li>
+</ul>
+<p>D.T.:</p>
+<ul>
+<li>[ ] Se respeta el diseño de prototipado</li>
+<li>[ ] Se utiliza html semántico</li>
+<li>[ ] Se utiliza html dinámico</li>
+<li>[ ] Se trabaja en pair-programming</li>
+<li>[ ] El código está actualizado en el repositorio</li>
+<li>[ ] Se realiza test de usabilidad al menos a 5 usuarios</li>
+<li>[ ] Se afinan detalles finales</li>
+</ul>
+<ul>
+<li><strong>Planificación</strong></li>
+</ul>
+<p>Link a Trello: <a href="https://trello.com/b/qhvhu0vq/data-lovers">https://trello.com/b/qhvhu0vq/data-lovers</a></p>
+<ul>
+<li><strong>Adicional a Historias de Usuario</strong></li>
+</ul>
+<ol>
+<li>Para proveer una navegación personalizada, hemos creado una sección de login al momento de ingresar a la aplicación, solicitando un username y password.</li>
+<li>Se crearon opciones para que el usuario pueda organizar la Pokédex con los siguientes criterios: A-Z, Z-A, n° menor (primero), n° mayor (primero).</li>
+<li>Se crean filtros para que el usuario pueda elegir un tipo de Pokémon específico y la Pokédex retorne solo aquellos que cumplan con la condición.</li>
+</ol>
+<ul>
+<li><strong>Feedback adicional de los usuarios</strong></li>
+</ul>
+<p>Dejamos a continuación algunos de los comentarios adicionales que recibimos de nuestros potenciales usuarios, esto a considerar para futuras mejoras
+al producto final y nuevas historias de usuario:</p>
+<ol>
+<li>"Me gustaría más información sobre la probabilidad de aparición variocolor de cada Pokémon" (en referencia al spawn de Pokémon Shiny)</li>
+<li>"Que haya más información sobre los ataques de los pokémones"</li>
+<li>"Que no ocupe mucha memoria en el celular"</li>
+<li>"Mostrar los mejores ataques de los pokémon y si conviene o no agregar 2do ataque"</li>
+</ol>
+<h2>
+<a id="4-prototipos" class="anchor" href="#4-prototipos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4. PROTOTIPOS</h2>
+<h3>
+<a id="41-prototipo-de-baja-fidelidad" class="anchor" href="#41-prototipo-de-baja-fidelidad" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4.1 Prototipo de Baja Fidelidad</h3>
+<ul>
+<li><strong>Versión Desktop</strong></li>
+</ul>
+<p><img src="https://i.imgur.com/r8NoKx2.jpg" alt="json-interfaz"></p>
+<p><img src="https://i.imgur.com/unwTr39.jpg" alt="json-interfaz"></p>
+<p><img src="https://i.imgur.com/kvzPGrG.jpg" alt="json-interfaz"></p>
+<ul>
+<li><strong>Versión Mobile</strong></li>
+</ul>
+<p><img src="https://i.imgur.com/YEuo2pa.jpg" alt="json-interfaz"></p>
+<p><img src="https://i.imgur.com/78NErBq.jpg" alt="json-interfaz"></p>
+<p><img src="https://i.imgur.com/w08CWMG.jpg" alt="json-interfaz"></p>
+<h3>
+<a id="42-prototipo-de-alta-fidelidad" class="anchor" href="#42-prototipo-de-alta-fidelidad" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4.2 Prototipo de Alta Fidelidad</h3>
+<ul>
+<li><strong>Primera Versión</strong></li>
+</ul>
+<p><img src="https://imgur.com/6VIcUKv.jpg" alt="json-interfaz"></p>
+<p><img src="https://imgur.com/xqCYf4n.jpg" alt="json-interfaz"></p>
+<p><img src="https://imgur.com/pIZ1PQK.jpg" alt="json-interfaz"></p>
+<h2>
+<a id="5-imagen-final-del-proyecto" class="anchor" href="#5-imagen-final-del-proyecto" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5. IMAGEN FINAL DEL PROYECTO</h2>
+<p>Link a proyecto: <a href="https://catalinavega.github.io/SCL014-data-lovers/">https://catalinavega.github.io/SCL014-data-lovers/</a></p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/aneacevedo/SCL014-data-lovers/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/aneacevedo/SCL014-data-lovers/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/aneacevedo/SCL014-data-lovers"></a> is maintained by <a href="https://github.com/aneacevedo">aneacevedo</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
